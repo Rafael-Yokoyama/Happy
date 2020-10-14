@@ -5,42 +5,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Localize um ofanato Happy</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+
+
     <link rel="icon" href="public/images/logo-icon.png" />
     <link rel="stylesheet" type="text/css" href="public/css/main.css">
     <link rel="stylesheet" type="text/css" href="public/css/page-orfanato.css">
     <link rel="stylesheet" type="text/css" href="public/css/animacoes.css">
-  
+
+
+
 </head>
 </head>
 
 <body>
     <div id="page-orfanatos">
-        
 
-    <aside>
-        <header>
-            <img src="public/images/map-marker.svg" alt="Happy">
-            <h2>
-                Escolha um orfanato no mapa
-            </h2>
-            <p>Muitas crianaçs estão esperando sua visita ;) </p>
-        </header>
-        <footer>
-            <strong>Rio do Sul</strong>
-            <p>Santa Catarina</p>
-        </footer>
-    </aside>
 
-    <div id="map-id">
-       <a href="create-orfanato.html " class="create-orfanato" title="Cadastre um orfanato">
-           <img src="public/images/plus.svg" alt="">
-       </a>
+        <aside class="animate-rigth">
+            <header>
+                <img src="public/images/map-marker.svg" alt="Happy">
+                <h2>
+                    Escolha um orfanato no mapa
+                </h2>
+                <p>Muitas crianaçs estão esperando sua visita ;) </p>
+            </header>
+            <footer>
+                <strong>Rio do Sul</strong>
+                <p>Santa Catarina</p>
+            </footer>
+        </aside>
 
+        <div id="mapid" class="animate-appear">
+            <a href="create-orfanato.html " class="create-orfanato" title="Cadastre um orfanato">
+                <img src="public/images/plus.svg" alt="">
+            </a>
+
+        </div>
     </div>
-</div>
 
 
-   
+    <script src="./public/scripts/page-orfanato.js"></script>
 
 </body>
 

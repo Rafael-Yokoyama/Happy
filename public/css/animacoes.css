@@ -14,3 +14,32 @@
 .animate-up{
     animation:up 300ms backwards ;
 }
+
+@keyframes right{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    
+    }
+}
+
+.animate-rigth{
+    animation:right 300ms  ;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+
+    }
+ to{
+     opacity: 1;
+
+ }
+
+}
+.animate-appear{
+    animation: appear 300ms backwards;
+
+}
