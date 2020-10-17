@@ -33,7 +33,7 @@ Conteúdo |gratuito | exclusivo  🔥
 
 ## Antevisão 💻📱
 
-![](https://github.com/Rafael-Yokoyama/Happy/blob/main/public/images/antevisao.png)
+![](https://github.com/Rafael-Yokoyama/Happy/blob/main//images/antevisao.png)
 
 ## 🎨 Layout
 
