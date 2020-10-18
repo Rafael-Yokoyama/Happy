@@ -42,7 +42,7 @@
 
         </aside>
         <main class="animate-appear width-sidebar">
-            <form action="">
+            <form action="save-orphanage" method="post" onsubmit="validate(event) ">
                 <fieldset>
                     <legend>Dados</legend>
                     <div class="map-conteiner">
@@ -75,10 +75,10 @@
                     </div>
                     <div class="input-block images">
                         <label for="images">Fotos</label>
-                        <div class="images-uplod" id="images"  required>
+                        <div class="images-uplod" id="images"  >
 
                             <div class="new-uploads">
-                                <input name="images" placeholder="Cole o link da foto aqui">
+                                <input name="images" placeholder="Cole o link da foto aqui" required type="url">
                                 <span onclick="deleteField(event)" >
                                     <img src=".//images/remove-file.svg" alt="Remover foto"
                                     ></span>

@@ -7,6 +7,9 @@ const  pages = require('./pages')
 const  server = express()
 server
 
+
+// use req.body 
+.use(express.urlencoded({ extended: true }))
 // utilizadno os arquivos estaticos
 .use(express.static('public'))
 //configurar templete egine
@@ -18,6 +21,7 @@ server
 .get('/orfanato', pages.orfanato )
 .get('/orfanatos', pages.orfanatos )
 .get('/criar', pages.criar )
+.post('/save-orphanage', pages.saveOrphanage)
   
 
    

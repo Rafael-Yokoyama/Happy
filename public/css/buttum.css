@@ -12,42 +12,43 @@
     justify-content: center;
     transition: background-color .2s ;
     font-family: Nunito;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
 
-}
+    }
 
-.primeiro-buttom:hover{
-    background: #06dc71;
-}
-.primeiro-buttom img {
-    margin-right: 1.6rem;
-}
-.button-select {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-}
+    .primeiro-buttom:hover{
+        background: #06dc71;
+    }
+    .primeiro-buttom img {
+        margin-right: 1.6rem;
+    }
+    .button-select {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
 
-.button-select button{
-    height: 6.4rem;
-    background: #F5F8FA;
-    border: 1px solid #D3E2E5;
-    color: #5c8599;
-    cursor: pointer; 
-   
-}
-.button-select button.active{
-    background: #edfff6;
-    border: 1px solid #a1e9c5;
-    color: #37c77f;
+    .button-select button{
+        height: 6.4rem;
+        background: #F5F8FA;
+        border: 1px solid #D3E2E5;
+        color: #5c8599;
+        cursor: pointer; 
+    
+    }
+    .button-select button.active{
+        background: #edfff6;
+        border: 1px solid #a1e9c5;
+        color: #37c77f;
 
-}
+    }
 
-.button-select button:first-child{
-    border-radius: 20px 0px 0px 20px;
-}
-.button-select button:last-child{
+    .button-select button:first-child{
+        border-radius: 20px 0px 0px 20px;
+    }
+    .button-select button:last-child{
 
-    border-radius: 0px 20px 20px 0px;
-}
+        border-radius: 0px 20px 20px 0px;
+    }
