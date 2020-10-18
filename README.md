@@ -11,7 +11,7 @@ Next Level Week – Trilha Discovery- terceira edição  "Happy" 😀
  <h2 align="center">
 Sobre 📖
 </h2>
-<a href="https://blog.da2k.com.br">Blog do Da2k</a>
+
 
  <p align="center">
 Projeto chamado Happy, ele foi desenvolvido durante a Next Level Week- terceira edição da <a href="https://rocketseat.com.br/">Rocketseat</a> 
@@ -26,10 +26,10 @@ Conteúdo |gratuito | exclusivo  🔥
 
  
 * ✅ "Acelerando sua evolução" 
-* 🔄 "Procurando oportunidades" 
-* 🔄 "A escolha da pilha" 
-* 🔄 "Até dois anos em 2 meses" 
-* 🔄 "Um milha extra" 🚀
+* ✅ "Procurando oportunidades" 
+* ✅ "A escolha da pilha" 
+* ✅ "Até dois anos em 2 meses" 
+* ✅ "Um milha extra" 🚀
 
 ## Antevisão 💻📱
 
@@ -44,16 +44,29 @@ O Layout foi desenvolvido por <a href="https://www.instagram.com/tiagoluchtenber
 ## Tecnologias 🛠
 As seguintes ferramentas foram usadas na construção do projeto 
 
- 🚧    andamento    🚧
+* <a href="https://nodejs.org/en/"> Node.js  </a> 
+* <a href="https://expressjs.com/pt-br/"> Express  </a> 
+* <a href="https://www.sqlite.org/index.html"> SQLite </a> 
+* <a href="https://handlebarsjs.com/"> Handlebars  </a> 
+* <a href="https://www.javascript.com/"> JavaScript  </a> 
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> CSS  </a> 
+* <a href="https://html.com/">  HTML </a> 
  
 
 ## 🚀 Como executar o projeto
    
          - Clone este repositório
-          $ git clone https://github.com/Rafael-Yokoyama/Happy.git
-
+           $ git clone https://github.com/Rafael-Yokoyama/Happy.git
+      
          - Entre no diretório:
-          $ cd Happy
+           $ cd Happy
+          
+          -Execute a aplicação:
+           $ npm start
+          
+         - Abra seu navegador em:
+           http:// localhost:5500/
+         
 
 # 😯 Como contribuir para o projeto
 
